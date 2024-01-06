@@ -58,9 +58,10 @@ main section {
 .header {
   height: 100vh;
   background-color: #fff8f3;
+  background-image: url("../images/developer.png");
   background-repeat: no-repeat;
-  background-size: auto 60%;
-  background-position: right bottom;
+  background-size: auto 90%;
+  background-position: 3% center;
   overflow: hidden;
 }
 
@@ -100,8 +101,8 @@ nav a {
 .banner {
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
-  background-size: auto 70%;
-  background-position: right bottom;
+  background-size: auto 70%, auto 100%;
+  background-position: right bottom, left top;
   padding: 3rem 3rem 0rem 15rem;
   display: flex;
   align-items: center;
