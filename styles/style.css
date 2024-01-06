@@ -35,10 +35,25 @@ body {
   border: 0;
 }
 
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
 .para-text {
   color: #757575;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.info-title {
+  color: #474747;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 /* header part style  */
@@ -92,6 +107,7 @@ nav a {
   padding: 3rem 3rem 0rem 15rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 3rem;
 }
 
@@ -100,7 +116,7 @@ nav a {
 }
 
 .banner-content {
-  /* max-width: 500px; */
+  max-width: 500px;
   & button {
     margin-right: 3rem;
   }
@@ -132,4 +148,26 @@ nav a {
 
 .banner-content p {
   margin: 1.8rem 0 2.7rem;
+}
+
+/* main section style  */
+/* about section style is here */
+.about {
+  margin: 13rem auto;
+  padding: 11rem 14rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 248, 243, 1);
+  text-align: center;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+/* what i do section style is here */
+#what-i-do-text {
+  text-align: center;
+  /* padding: ; */
 }
