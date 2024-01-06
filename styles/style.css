@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* common share website  */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.text-primary {
+  color: #fd6e0a;
+  text-align: center;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1.5rem 3rem;
+  border: 0;
+}
+
+.para-text {
+  color: #757575;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* header part style  */
+.header {
+  height: 100vh;
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+  background-position: right bottom;
+  overflow: hidden;
+}
+
+/* nav style  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4.5rem;
+}
+
+.nav-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #181818;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 5rem;
+  color: #474747;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* banner style is here  */
+.banner {
+  background-image: url("../images/hardy.png");
+  height: 52rem;
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+  background-position: 95% bottom;
+}
+.banner-content {
+  min-width: 47rem;
+  margin-left: auto;
+  padding: 12rem 53rem 0 0;
+
+  & button {
+    margin-right: 3rem;
+  }
+}
+
+.btn-primary i {
+  margin-right: 1rem;
+}
+
+#btn-cotact {
+  background-color: transparent;
+  border: 2px solid #fd6e0a;
+  color: #fd6e0a;
+}
+
+.banner-greeting {
+  color: #474747;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.banner-title {
+  color: #181818;
+  font-size: 6.7rem;
+  font-weight: 700;
+}
+
+.banner-content p {
+  margin: 1.8rem 0 2.7rem;
+}
