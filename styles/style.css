@@ -15,9 +15,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.container {
+main,
+nav {
   max-width: 110rem;
   margin: 0 auto;
+}
+
+main section {
+  margin-top: 13rem;
 }
 
 .text-primary {
@@ -40,20 +45,13 @@ body {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 2.5rem;
+  margin: 2.5rem;
 }
 
 .para-text {
   color: #757575;
   font-size: 1.5rem;
   font-weight: 400;
-}
-
-.info-title {
-  color: #474747;
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 30px;
 }
 
 /* header part style  */
@@ -153,7 +151,6 @@ nav a {
 /* main section style  */
 /* about section style is here */
 .about {
-  margin: 13rem auto;
   padding: 11rem 14rem;
   border-radius: 1rem;
   background-color: rgba(255, 248, 243, 1);
@@ -166,8 +163,73 @@ nav a {
   margin-top: 3rem;
 }
 
+.info-title {
+  color: #474747;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 30px;
+}
+
 /* what i do section style is here */
 #what-i-do-text {
   text-align: center;
-  /* padding: ; */
+  padding: 0 10rem;
+}
+
+.skils-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.skill {
+  padding: 3rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  color: #181818;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 3rem 0 2rem;
+}
+
+/* my resume style is here  */
+.resume-container {
+  display: flex;
+  gap: 5rem;
+  margin-top: 10rem;
+}
+
+.content-title {
+  color: #474747;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.content-sub-title {
+  color: #474747;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  margin: 2.6rem 0 0 0;
+}
+
+.edu-institute {
+  color: #757575;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0.6rem 0 1.6rem;
+}
+
+.experience-content hr,
+.education-content hr {
+  margin-top: 2.6rem;
+}
+
+.download-cv {
+  text-align: center;
+  margin: 5rem 0 10rem;
 }
